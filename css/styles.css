@@ -131,3 +131,45 @@ nav ul li a:hover {
     transform: translateY(-10px);
     transition: 0.3s;
 }
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #aeaeae;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn {
+    display: inline-block;
+    background: #aeaeae;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: cornflowerblue;
+    transition: 0.3s;
+}
