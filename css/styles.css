@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    background-color: white;
+    
 }
 
 ul {
@@ -49,16 +49,8 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.col-1 {
-    flex-basis: 35%;
-}
-
-.col-2 {
-    flex-basis: 60%;
-}
-
 .sub-title {
-    font-size:  60px;
+    font-size:  45px;
     font-weight: bold;
     
 }
@@ -157,10 +149,10 @@ form input, form textarea {
     padding: 15px;
     margin: 15px 0;
     font-size: 18px;
-    border-radius: 6px;
+    border-radius: 6px; 
 }
 
-.btn {
+#contactusbtn {
     display: inline-block;
     background: #aeaeae;
     padding: 10px;
@@ -169,7 +161,24 @@ form input, form textarea {
     cursor: pointer;
 }
 
-.btn:hover {
+.contactusbtn:hover {
     background: cornflowerblue;
     transition: 0.3s;
+}
+
+.skills {
+    border-radius: 20px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    
+  }
+  
+  .html {width: 90%; background-color: cornflowerblue;} 
+  .css {width: 80%; background-color: cornflowerblue;} 
+  .js {width: 65%; background-color: cornflowerblue;} 
+  .php {width: 60%; background-color: cornflowerblue;} 
+
+.language-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }

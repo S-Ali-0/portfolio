@@ -19,9 +19,6 @@
     <div class="about">
         <div class="container">
             <div class="row">
-                <div class="col-1">
-                    <h1>Image placeholder</h1>
-                </div>
                 <div class="col-2">
                     <h1 class="sub-title">About me</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate eligendi sint officia, distinctio possimus quod ut earum nesciunt porro laboriosam voluptatem beatae saepe quis alias sit minus reiciendis iure!</p>
@@ -30,6 +27,27 @@
                         <p class="tab-links active-link">Skills</p>
                         <p class="tab-links">Experience</p>
                         <p class="tab-links">Education</p>
+                    </div>
+                    <div class="skills">
+                        <p class="language-text">HTML</p>
+                        <div class="skills-container">
+                            <div class="skills html"></div>
+                        </div>
+
+                        <p class="language-text">CSS</p>
+                        <div class="skills-container">
+                            <div class="skills css"></div>
+                        </div>
+
+                        <p class="language-text">JavaScript</p>
+                        <div class="skills-container">
+                            <div class="skills js"></div>
+                        </div>
+
+                        <p class="language-text">PHP</p>
+                        <div class="skills-container">
+                            <div class="skills php"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,19 +79,15 @@
     
     <div id="contact">
         <div class="container">
+            <h1 class="sub-title">Contact</h1>
             <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p>email@email.com</p>
-                    <p>01234567890</p>
-                </div>
                 <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your name" required>
-                        <input type="email" name="Email" placeholder="Your email" required>
-                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
-                        <button type="submit" class="btn">Submit</button>    
-                    </form>
+                    <form class="contactusform"  action="index.html" method="POST">
+                        <input type="text" id="name"  class="contactustext" placeholder="Enter your name" required>
+                        <input type="email" id="email" class="contactustext" placeholder="Enter your email" required>
+                        <textarea name="entermessage" id="enterdetails" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                        <button id="contactusbtn" type="submit">Submit</button>
+                      </form>
                 </div>
             </div>
         </div>
