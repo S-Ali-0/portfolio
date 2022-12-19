@@ -5,6 +5,10 @@
     color: #e7e7e7;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #01001f;
     font-family: sans-serif;
@@ -33,7 +37,7 @@ ul {
     font-weight: bold;
 }
 
-.about {
+#about {
     margin-top: 100px;
 }
 
@@ -140,18 +144,22 @@ nav ul li a:hover {
 
 form input, form textarea {
     width: 100%;
-    border: 0;
+    border: 1px solid #e7e7e7;
     outline: none;
-    background: #aeaeae;
+    background: transparent;
     padding: 15px;
     margin: 15px 0;
     font-size: 18px;
     border-radius: 6px; 
 }
 
+form input:focus, form textarea:focus {
+    border-color: cornflowerblue;
+}
+
 #contactusbtn {
     display: inline-block;
-    background: #aeaeae;
+    background: cornflowerblue;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -188,4 +196,11 @@ form input, form textarea {
 textarea {
     font-family: inherit;
     font-size: inherit;
+    resize: none;
+}
+
+.arrow-container {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
 }
