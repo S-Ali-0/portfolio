@@ -172,16 +172,22 @@ form input:focus, form textarea:focus {
 }
 
 .skills {
-    border-radius: 20px;
+    border-radius: 10px 0 0 10px;
     padding-top: 10px; 
     padding-bottom: 10px; 
-    
-  }
+    width: 60%;
+}
+
+.skills-container {
+    background: darkgrey;
+    border-radius: 10px;
+}
   
-  .html {width: 90%; background-color: cornflowerblue;} 
-  .css {width: 80%; background-color: cornflowerblue;} 
-  .js {width: 65%; background-color: cornflowerblue;} 
-  .php {width: 60%; background-color: cornflowerblue;} 
+  .html {width: 1%; background-color: cornflowerblue; animation: html-fill 2s forwards;} 
+  .css {width: 1%; background-color: cornflowerblue; animation: css-fill 2s forwards;} 
+  .js {width: 1%; background-color: cornflowerblue; animation: js-fill 2s forwards;} 
+  .php {width: 1%; background-color: cornflowerblue; animation: php-fill 2s forwards;} 
+  .sql {width: 1%; background-color: cornflowerblue; animation: sql-fill 2s forwards;} 
 
 .language-text {
     margin-top: 15px;
@@ -209,11 +215,16 @@ textarea {
     text-decoration: none;
 }
 
+.ri-arrow-down-circle-fill {
+    border-radius: 50%;
+}
+
 .ri-arrow-down-circle-fill:hover {
-	border-radius: 50%;
-    animation: pulse 1.5s infinite;
+    animation: pulse 1.2s infinite;
     background: rgba(100, 149, 237, 0.5);
-    
+    padding: 1px;
+    animation-delay: 0.2s;
+    transition-delay: 0.2s;
 }
 
 
@@ -223,9 +234,41 @@ textarea {
     }
     70% {
         box-shadow: 0 0 20px 15px rgba(100, 149, 237, 0);
-        background: rgba(100, 149, 237, 0.3);
+        background: rgba(100, 149, 237, 0.1);
     }
     100% {
         box-shadow: 0 0 0 0 rgba(100, 149, 237, 0);
     }
   }
+
+  
+    
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes js-fill{
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes php-fill{
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes sql-fill{
+    100%{
+        width: 70%;
+    }
+}
