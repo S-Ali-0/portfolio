@@ -62,12 +62,13 @@ nav ul li a:hover {
 .sub-title {
     font-size:  45px;
     font-weight: bold;
-    
+    margin-bottom: 25px;
+    margin-top: 70px;
 }
 
 .tab-titles {
     display: flex;
-    margin: 20px 0 40px;
+    margin: 40px 0 40px;
 
 }
 
@@ -207,6 +208,7 @@ textarea {
 
 .arrow-container {
     margin-top: 200px;
+    margin-bottom: 200px;
     text-align: center;
     font-size: 60px;
 }
@@ -225,6 +227,10 @@ textarea {
     padding: 1px;
     animation-delay: 0.2s;
     transition-delay: 0.2s;
+}
+
+#contact {
+    margin-bottom: 90px;
 }
 
 
