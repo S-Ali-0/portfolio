@@ -18,6 +18,7 @@ body {
     font-size: 70px;
     margin-top: 200px;
     margin-bottom: 20px;
+    color: cornflowerblue;
 }
 
 #intro-text, #intro-text2 {
@@ -55,15 +56,17 @@ nav ul li a:hover {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .sub-title {
     font-size:  45px;
     font-weight: bold;
+    text-align: center;
     margin-bottom: 25px;
     margin-top: 70px;
+    color: cornflowerblue;
 }
 
 .tab-titles {
@@ -135,6 +138,35 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.skills-list div {
+    background: #aeaeae;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+.skills-list div a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.skills-list div:hover {
+    background: cornflowerblue;
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
 .contact-left p {
     margin-top: 30px;
 }
@@ -156,15 +188,16 @@ form input, form textarea {
 
 form input:focus, form textarea:focus {
     border-color: cornflowerblue;
+    box-shadow: 0 0 10px 1px cornflowerblue;
 }
 
 #contactusbtn {
-    display: inline-block;
     background: cornflowerblue;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    float: right;
 }
 
 .contactusbtn:hover {
@@ -172,12 +205,7 @@ form input:focus, form textarea:focus {
     transition: 0.3s;
 }
 
-.skills {
-    border-radius: 10px 0 0 10px;
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    width: 60%;
-}
+
 
 .skills-container {
     background: darkgrey;
