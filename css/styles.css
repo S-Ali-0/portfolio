@@ -111,11 +111,9 @@ nav ul li a:hover {
 
 .project-list div {
    
-    padding: 40px;
+   
     font-size: 13px;
     font-weight: 300;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
 }
 
 .project-list div h2 {
@@ -134,9 +132,7 @@ nav ul li a:hover {
 }
 
 .project-list div:hover {
-    background: cornflowerblue;
-    transform: translateY(-10px);
-    transition: 0.3s;
+    
 }
 
 .skills-list {
@@ -262,7 +258,34 @@ textarea {
     margin-bottom: 90px;
 }
 
+.laptop {
+    width: 260px;
+    height: 150px;
+    background: lightblue;
+    margin-top: 20px;
+    border: 8px solid grey;
+    border-radius: 5px;
+}
 
+.laptop-base {
+    width: 300px;
+    height: 9px;
+    margin-left: -20px;
+    margin-top: -3px;
+    background: grey;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.laptop-touchpad {
+    width: 50px;
+    height: 8px;
+    background: black;
+    margin-left: 100px;
+    margin-top: -11px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 
   @keyframes pulse {
     0% {
