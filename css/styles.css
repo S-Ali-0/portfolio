@@ -46,6 +46,13 @@ ul {
     margin-top: 100px;
 }
 
+#about-p {
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 25px;
+}
+
 li {
     margin-right: 2rem;
 }
