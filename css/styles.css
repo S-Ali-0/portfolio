@@ -129,10 +129,10 @@ nav ul li a:hover {
 }
 
 .project-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-
+       font-size: 20px;
+       text-align: center;
+       font-weight: 500;
+       padding-right: 25px;
 }
 
 .project-list div a {
