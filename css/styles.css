@@ -164,7 +164,6 @@ nav ul li a:hover {
 }
 
 .skills-p {
-    font-size: 15px;
     padding-top: 15px;
 }
 
@@ -175,11 +174,15 @@ nav ul li a:hover {
     margin-top: 50px
 }
 
+.services-p {
+    padding-top: 10px;
+}
+
 .circles {
     width: 200px; 
     height: 200px;   
     background: rgba(255, 255, 255, 0.05); 
-    border-radius: 50%;
+    border-radius: 15px;
     line-height: 30px;
     text-align: center;
 }
@@ -329,7 +332,7 @@ textarea {
 }
 
 #site-3 {
-    background-image: url(../images/5.png);
+    background-image: url(../images/6.png);
     background-repeat: round;
 }
 
