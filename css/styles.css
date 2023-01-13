@@ -145,8 +145,6 @@ nav ul li a:hover {
 
 .skills-list div {
     padding: 60px;
-    font-size: 13px;
-    font-weight: 300;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
 }
@@ -163,6 +161,11 @@ nav ul li a:hover {
     background: cornflowerblue;
     transform: translateY(-10px);
     transition: 0.3s;
+}
+
+.skills-p {
+    font-size: 15px;
+    padding-top: 15px;
 }
 
 .services-list {
