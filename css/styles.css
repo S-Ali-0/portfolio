@@ -195,6 +195,11 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.circles:hover {
+    box-shadow: 0 0 10px 1px cornflowerblue;
+    transition: 0.3s;
+}
+
 .ri-pencil-line, .ri-computer-line, .ri-search-line {
     font-size: 45px;
 }
