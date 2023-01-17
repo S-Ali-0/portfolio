@@ -393,3 +393,33 @@ textarea {
         width: 70%;
     }
 }
+
+@media screen and (max-width:567px) {
+
+.skills-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skills-list div {
+    padding: 0;
+}
+
+.skills-p {
+    padding-bottom: 15px;
+}
+
+svg {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+#about-p {
+    padding: 0;
+}
+
+.arrow-container {
+    margin-bottom: 0;
+}
+
+}
