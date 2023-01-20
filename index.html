@@ -11,14 +11,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">      
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="topnav" id="topnavs">
+        <nav>
+            <ul id="myLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction(); toggleIcon()">
+            <i id="menu-icon" class="ri-menu-line"></i>
+        </a>
+    </div>
     
     <div class="intro">
         <div class="container">

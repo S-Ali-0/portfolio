@@ -14,6 +14,10 @@ body {
     font-family: sans-serif;
 }
 
+.icon {
+    display: none;
+}
+
 p {
     text-align: center;
 }
@@ -427,4 +431,31 @@ textarea {
         margin-bottom: 0;
     }
 
+    .topnav { 
+        position: relative;
+        background:radial-gradient(farthest-side,cornflowerblue 48%,transparent 50%) no-repeat,
+        black;
+        background-size: 400% 400%;
+        background-position:bottom left;
+        transition: 1s ease;
+      }
+    
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    .topnav a.icon {
+        font-size: 30px;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
 }
