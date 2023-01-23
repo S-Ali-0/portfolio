@@ -92,8 +92,6 @@ nav ul li a:hover {
 
 .tab-links {
     font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
     position: relative;
 }
 
@@ -430,7 +428,11 @@ textarea {
     .arrow-container {
         margin-bottom: 0;
     }
-
+    
+    nav ul li a:hover {
+        color: #01001f;
+    }
+   
     .topnav { 
         position: relative;
         background:radial-gradient(farthest-side,cornflowerblue 48%,transparent 50%) no-repeat,
